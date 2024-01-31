@@ -22,7 +22,7 @@
 	![delenvironment](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/img/delenvironment.gif)
 
 
-	[https://github.com/laksa19/mikhmonv3/issues/5](https://github.com/laksa19/mikhmonv3/issues/5) ! Perlu penyesuaian untuk template hotspot, ubah 
+   	Konfigurasi issue/5 (https://github.com/laksa19/mikhmonv3/issues/5) ! Perlu penyesuaian untuk template hotspot, ubah 
   ```<img src="<?= $qrcode ?>" >``` menjadi ```<?= $qrcode ?>``` tanpa tag ```<img>```. Bagi yang menggunakan template default bisa reset template default untuk menyesuaikan QR Code.
 	  
    Untuk template voucher yang lain bisa menyesuaikan ukuran QR Code dapat menambahkan style sebagai berikut.
