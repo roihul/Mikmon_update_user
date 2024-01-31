@@ -30,14 +30,5 @@
   ```<img src="<?= $qrcode ?>" >``` menjadi ```<?= $qrcode ?>``` tanpa tag ```<img>```. Bagi yang menggunakan template default bisa reset template default untuk menyesuaikan QR Code.
 	  
    Untuk template voucher yang lain bisa menyesuaikan ukuran QR Code dapat menambahkan style sebagai berikut.
-   
-```html
-<style>
-  .qrcode{
-  height:80px;
-  width:80px;
-  }
-</style>
-```
 
 ![newqr](https://raw.githubusercontent.com/laksa19/laksa19.github.io/master/img/newqr.gif)
